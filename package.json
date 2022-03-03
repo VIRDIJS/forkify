@@ -1,0 +1,32 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Jatinder Virdi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.13.0",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0",
+    "sharp": "^0.29.0"
+  },
+  "dependencies": {
+    "core-js": "^3.16.1",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.9",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "babel": {
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-private-methods"
+    ]
+  }
+}
